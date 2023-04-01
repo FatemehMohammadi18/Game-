@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 400px;
+    height: 300px;
+    background-color: rebeccapurple;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.scorebox {
+    width: 200px;
+    height: 100px;
+    border: 1px solid #000;
+    display: flex;
+}
+.scorebox div {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #000;
+
+}
+.yourscore, .computerscore {
+    font-size: 25px;
+}
+.choose {
+    width: 300px;
+    height: 100px;
+    background-color: rebeccapurple;
+    /* border: 1px solid #000; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.choose button img {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    background-color: rebeccapurple;
+
+}
+button {
+    background-color: rebeccapurple;
+    border: none;
+}
+
+p {
+    font-size: 12px;
+    font-weight: bolder;
+    text-align: center;
+}
+#computerchoise {
+    display: none;
+}
+ 
